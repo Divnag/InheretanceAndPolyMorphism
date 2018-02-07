@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F329F96C-B9BB-446E-A40B-A319BCBEA05C}</ProjectGuid>
+    <ProjectGuid>{3B5762EE-44E7-45F0-914B-1CE939E010B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>InheretanceAnd_Polymorphism</RootNamespace>
     <AssemblyName>InheretanceAnd Polymorphism</AssemblyName>
@@ -42,15 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appliance.cs" />
+    <Compile Include="Dishwasher.cs" />
     <Compile Include="Matrress.cs" />
     <Compile Include="DeathEater.cs" />
     <Compile Include="Furniture.cs" />
     <Compile Include="HogwartsStudent.cs" />
+    <Compile Include="Membership.cs" />
+    <Compile Include="MicroWave.cs" />
     <Compile Include="Sofa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="Shape.cs" />
+    <Compile Include="StandardMember.cs" />
+    <Compile Include="VIPMember.cs" />
     <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
